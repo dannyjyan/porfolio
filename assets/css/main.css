@@ -1937,6 +1937,14 @@ input, select, textarea {
 					background: #829bc9;
 				}
 
+			.icon.circle.fa-file-text {
+				background: #db6b67;
+				color: #fff;
+			}
+
+				.icon.circle.fa-file-text:hover {
+					background: #df7b77;
+				}
 			.icon.circle.fa-google-plus {
 				background: #db6b67;
 				color: #fff;
@@ -1945,6 +1953,7 @@ input, select, textarea {
 				.icon.circle.fa-google-plus:hover {
 					background: #df7b77;
 				}
+	
 
 			.icon.circle.fa-github {
 				background: #dcad8b;
@@ -2507,8 +2516,10 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/forest.jpg");
+		background-image: url("images/desktop2.png");
 		background-size: 100%;
+		background-position: 0 100%;
+		/* transform: scale(0.6); */
 		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		/* background-position: bottom left, bottom right, top left, top center; */
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -3342,4 +3353,7 @@ input, select, textarea {
 #ruby-icon{
 	content: url(./images/icons/ruby-icon.png);
 	height: 1em;
+}
+.image-cont{
+
 }
