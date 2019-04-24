@@ -1945,12 +1945,12 @@ input, select, textarea {
 				.icon.circle.fa-file-text:hover {
 					background: #df7b77;
 				}
-			.icon.circle.fa-google-plus {
+			.icon.circle.fa-linkedin {
 				background: #db6b67;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #df7b77;
 				}
 	
@@ -3354,6 +3354,11 @@ input, select, textarea {
 	content: url(./images/icons/ruby-icon.png);
 	height: 1em;
 }
-.image-cont{
-
+.skills-header{
+  display: flex;
+  justify-content: center;
+  
+}
+#headshot{
+  box-shadow: 0 0 10px rgba(0,0,0,0.3)
 }
